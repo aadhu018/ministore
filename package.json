@@ -1,5 +1,5 @@
 {
-  "name": "3_aadhustore",
+  "name": "3_ministore",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@next/env": "^16.0.10",
     "next": "16.0.10",
     "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react-dom": "19.2.1",
+    "stripe": "^20.1.0"
   },
   "devDependencies": {
     "eslint": "^9",
