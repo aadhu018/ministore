@@ -1,6 +1,7 @@
 import ImageBanner from '@/components/ImageBanner';
 import Products from '@/components/Products';
 
+// force rebuild
 export async function getProducts() {
   const baseURL = process.env.NEXT_PUBLIC_BASE_URL
   const response = await fetch(baseURL + '/api/products')
