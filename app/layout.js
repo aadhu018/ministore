@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
       <html lang="en">
         <Head />
         <body>
+          {/* Portal root: modals render here instead of inside Products (avoid layout & z-index issues) */}
           <div id="portal" />
           <div id="app" >
             <header>

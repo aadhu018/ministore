@@ -6,6 +6,7 @@ export default function ImageBanner() {
     const [isLoaded, setIsLoaded] = useState(false);
     const imgRef = useRef();
 
+    // Handle cached images (onLoad may not fire if image is already loaded)
     useEffect(() => {
         if (imgRef.current.complete) {
             setIsLoaded(true);
