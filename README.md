@@ -42,3 +42,5 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 ## Notes
 
 This project was built as part of a course-based learning process to better understand Next.js full-stack patterns, including client/server separation, app routing, and Stripe payment integration.
+
+This project is a demo application built for learning purposes only. No real products are sold.
