@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
                   <h1>MiniStore</h1>
                 </Link>
 
-                <h5 className="mid-text">- Cool stuff for cool people -</h5>
+                <h5 className="mid-text">- Cool products for everyday use -</h5>
                 <Cart />
               </div>
             </header>
