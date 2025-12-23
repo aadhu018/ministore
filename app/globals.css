@@ -256,6 +256,12 @@ main,
     width: 100px;
 }
 
+.total-cost-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
 .checkout-container {
     padding-top: 2rem;
     display: flex;

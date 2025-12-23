@@ -76,6 +76,9 @@ export default function CartPage() {
                     )
                 })}
             </div>
+            <div className="total-cost-container">
+                <h3>Total: ${totalCost / 100}</h3>
+            </div>
             <div className="checkout-container">
                 <Link href={'/'}>
                     <button>&larr; Continue shopping</button>
