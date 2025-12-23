@@ -7,7 +7,7 @@ import EmailInput from "@/components/Emailinput";
 import ProductsProvider from "@/context/ProductContext";
 
 export const metadata = {
-  title: "Ministore",
+  title: "MiniStore",
   description: "An awesome e-commerce store for programmers and productivity enthusiasts!",
 };
 
