@@ -34,6 +34,22 @@ The app uses the Next.js App Router to separate client and server concerns. Clie
 
 ```bash
 npm install
+```
+
+## Environment Variables
+
+Create a `.env.local` file in the root directory and add:
+
+```bash
+NEXT_PUBLIC_STRIPE_SECRET_KEY=your_stripe_secret_key
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+```
+
+These values come from your Stripe Dashboard.
+
+## Run the app
+
+```bash
 npm run dev
 ```
 
