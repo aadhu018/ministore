@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
               </div>
 
               <div className="footer-text">
-                <p>© aadhuDev 2025<br />Built with NextJS 🔥</p>
+                <p>© <a href="https://aadhudev-portfolio.netlify.app/" target="_blank">aadhuDev</a> 2025<br />Built with NextJS 🔥</p>
               </div>
             </footer>
           </div>
