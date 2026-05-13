@@ -7,6 +7,7 @@ const stripe = new Stripe(API_KEY, {
 });
 
 export async function POST(request) {
+    // Create checkout session for cart items
     try {
         const { lineItems } = await request.json()
         console.log(lineItems)

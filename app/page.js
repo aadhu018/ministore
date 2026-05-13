@@ -14,10 +14,11 @@ export async function getProducts() {
 export default async function Home() {
 
   const products = await getProducts()
-  
+
   let planner = null
   let stickers = []
 
+  // Seperate planner from sticker products
   for (let product of products) {
     if (product.name === 'Medieval Dragon Month Planner') {
       planner = product
@@ -30,7 +31,7 @@ export default async function Home() {
     < >
       <ImageBanner />
       <section>
-        <Products planner={planner} stickers={stickers}/>
+        <Products planner={planner} stickers={stickers} />
       </section>
     </>
   );
